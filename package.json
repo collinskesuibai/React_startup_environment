@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
-    "dev-bundle": "webpack -wd" 
+    "dev-bundle": "webpack -wd"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "eslint-utils": "^1.4.2",
     "express": "^4.17.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
